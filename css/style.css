@@ -54,7 +54,7 @@ header {
   position: fixed;
   top: 0;
   min-height: 75px;
-  padding: 0px 20px;
+  padding: 0 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -110,6 +110,7 @@ nav {
     text-align: center;
     padding: 0 50px;
   }
+
   nav li {
     padding-bottom: 5px;
   }
@@ -136,6 +137,10 @@ nav > ul {
   text-align: center;
   height: 200px;
   margin-top: 50px;
+}
+
+.product > h2 {
+  margin-top: 15px;
 }
 
 #hero > h2 {
@@ -250,12 +255,12 @@ nav > ul {
   font-weight: 700;
 }
 
-.product > h2 {
-  margin-top: 15px;
-}
-
 .product > ol {
   margin: 15px 0;
+}
+
+footer > ul > li {
+  padding: 0 10px;
 }
 
 .product > ol > li {
@@ -278,6 +283,7 @@ nav > ul {
   #pricing {
     flex-direction: column;
   }
+
   .product {
     max-width: 300px;
     width: 100%;
@@ -295,10 +301,6 @@ footer {
 footer > ul {
   display: flex;
   justify-content: flex-end;
-}
-
-footer > ul > li {
-  padding: 0 10px;
 }
 
 footer > span {
